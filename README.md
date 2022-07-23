@@ -4,8 +4,8 @@ An Object Oriented Designed Library to solve 1D Boundary Value Problems (BVP) ca
 
 The type of BVP is 1D and time independent.
 
-The differential equation is discretized using a Finite Difference Method.
-The resulting system of algebraic equations are solved via Gaussian elimination.
+The Differential Equation is discretized using Finite Differences.
+The resulting System of Algebraic Equations are solved via Gaussian Elimination.
 
 The typical form of a BVP:
 
