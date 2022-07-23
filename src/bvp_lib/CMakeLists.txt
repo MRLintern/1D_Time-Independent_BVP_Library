@@ -1,7 +1,7 @@
 set(LIBRARY_SOURCES
 
 "boundary_conditions.cpp"
-"boundary_value_problem_ODE.cpp"
+"bvplib.cpp"
 "finite_difference_method.cpp"
 "linear_system.cpp"
 "matrix_operations.cpp"
@@ -10,7 +10,7 @@ set(LIBRARY_SOURCES
 set(LIBRARY_HEADERS
 
 "boundary_conditions.hpp"
-"boundary_value_problem_ODE.hpp"
+"bvplib.hpp"
 "finite_difference_method.hpp"
 "linear_system.hpp"
 "matrix_operations.hpp"
