@@ -11,7 +11,7 @@ The typical form of a BVP:
 
     Au''(x) + Bu'(x) + Cu(x) = f(x), X_0 < x < X_1.
 
-`A`, `B` and `C` are coefficients; specified by the user. 
+`A`, `B` and `C` are coefficients; specified by the user. Note: `A` can't be zero.
 
 `f(x)` is the source function.
 
