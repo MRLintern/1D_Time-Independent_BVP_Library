@@ -1,19 +1,15 @@
 #define CATCH_CONFIG_MAIN //tells catch to provide a main(); only in 1 .cpp file
 
 #include <catch2/catch.hpp>
+#include "bvplib.hpp" //the library
 
-//following code has nothing to do with BVPs.
-//the library is used for testing and the code
-//executed calculates some factorials
-//test case will fail
-#include "boundary_value_problem_ODE.hpp" //the library
+/*
 
-TEST_CASE("Factorials are computed", "[factorial]") {
+{
 
-    REQUIRE(Factorial(0) == 1);
-    REQUIRE(Factorial(1) == 1);
-    REQUIRE(Factorial(2) == 2);
-    REQUIRE(Factorial(3) == 6);
-    REQUIRE(Factorial(10) == 3628800);
+    ADD TEST CODE HERE
+    
 }
+
+
 
