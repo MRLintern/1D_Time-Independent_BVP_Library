@@ -71,7 +71,7 @@ Two `.dat` files are generated, one each corresponding to one model problem. The
 6. `$ cmake --build .`
 7. `$ ./Executable`. This will be generated in the main directory of the build directory.
 
-NOTE: The user has to specify the boundary/initial conditions for the problem. 
+NOTE: The user has to specify the boundary/initial conditions for the problem. To do this, go to main.cpp inside the main directory.
 
 ## Further Development
 
