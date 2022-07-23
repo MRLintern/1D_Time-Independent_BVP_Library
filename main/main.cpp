@@ -1,6 +1,6 @@
 #include <string>
 #include <cmath>
-#include "boundary_value_problem_ODE.hpp" //the library
+#include "bvplib.hpp" //the library
 
 #include <fmt/format.h> //formatting library
 #include <spdlog/spdlog.h> //logging library
