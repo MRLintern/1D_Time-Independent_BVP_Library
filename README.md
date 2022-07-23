@@ -1,4 +1,4 @@
-## 1D Boundary Value Problem Library
+## 1D Time-Independent Boundary Value Problem Library. 
 
 An Object Oriented Designed Library to solve 1D Boundary Value Problems (BVP) called `bvplib.hpp`
 
