@@ -1,17 +1,17 @@
-## 1D Time-Independent Boundary Value Problem Library. 
+## 1D Boundary Value Problem Library
 
 An Object Oriented Designed Library to solve 1D Boundary Value Problems (BVP) called `bvplib.hpp`
 
 The type of BVP is 1D and time independent.
 
-The Differential Equation is discretized using Finite Differences.
-The resulting System of Algebraic Equations are solved via Gaussian Elimination.
+The differential equation is discretized using a Finite Difference Method.
+The resulting system of algebraic equations are solved via Gaussian elimination.
 
 The typical form of a BVP:
 
     Au''(x) + Bu'(x) + Cu(x) = f(x), X_0 < x < X_1.
 
-`A`, `B` and `C` are coefficients; specified by the user. Note: `A` can't be zero.
+`A`, `B` and `C` are coefficients; specified by the user. 
 
 `f(x)` is the source function.
 
@@ -65,13 +65,14 @@ Two `.dat` files are generated, one each corresponding to one model problem. The
 
 1. `$ pip install conan`. Installing `conan`.
 2. `$ source ~/.profile`. Needed as the directory won't be automatically appended to the PATH and conan commands won't work.
-3. `$ make prepare`. Used to create the build library and configure `conan`.
-4. `$ cd build`
-5. `$ cmake ..`
-6. `$ cmake --build .`
-7. `$ ./Executable`. This will be generated in the main directory of the build directory.
+3. Clone the repository: `$ git clone https://github.com/MRLintern/1D_Time-Independent_BVP_Library.git`
+4. `$ make prepare`. Used to create the build library and configure `conan`.
+5. `$ cd build`
+6. `$ cmake ..`
+7. `$ cmake --build .`
+8. `$ ./Executable`. This will be generated in the main directory of the build directory.
 
-NOTE: The user has to specify the boundary/initial conditions for the problem. To do this, go to main.cpp inside the main directory.
+NOTE: The user has to specify the boundary/initial conditions for the problem. 
 
 ## Further Development
 
