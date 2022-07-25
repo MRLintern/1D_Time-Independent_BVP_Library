@@ -63,6 +63,8 @@ Two `.dat` files are generated, one each corresponding to one model problem. The
 
 ## Instructions
 
+Note: Don't leave spaces between commands and prompt.
+
 1. `$ pip install conan`. Installing `conan`.
 2. `$ source ~/.profile`. Needed as the directory won't be automatically appended to the PATH and conan commands won't work.
 3. Clone the repository: `$ git clone https://github.com/MRLintern/1D_Time-Independent_BVP_Library.git`
