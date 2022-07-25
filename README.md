@@ -74,8 +74,9 @@ Note: Don't leave spaces between commands and prompt.
 7. `$ cmake --build .`
 8. `$ ./Executable`. This will be generated in the main directory of the build directory.
 
-NOTE: 
-The user has to specify the boundary/initial conditions for the problem. To this go to `main/main.cpp`.
+NOTE:
+
+The user has to specify the boundary/initial conditions for the problem. To do this go to `main/main.cpp`.
 You'll see that these have already been applied for Model 1 and Model 2 listed above.
 
 ## Further Development
