@@ -72,7 +72,8 @@ Note: Don't leave spaces between commands and prompt.
 5. `$ cd build`
 6. `$ cmake ..`
 7. `$ cmake --build .`
-8. `$ ./Executable`. This will be generated in the main directory of the build directory.
+8. `$ cd build`
+9. `$ ./Executable`. This will be generated in the main directory of the build directory.
 
 NOTE:
 
