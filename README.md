@@ -68,12 +68,12 @@ Note: Don't leave spaces between commands and prompt.
 1. `$ pip install conan`. Installing `conan`.
 2. `$ source ~/.profile`. Needed as the directory won't be automatically appended to the PATH and conan commands won't work.
 3. Clone the repository: `$ git clone https://github.com/MRLintern/1D_Time-Independent_BVP_Library.git`
-4. `$ make prepare`. Used to create the build library and configure `conan`.
+4. `$ make prepare`. Used to create the build library and configure `conan`
 5. `$ cd build`
 6. `$ cmake ..`
 7. `$ cmake --build .`
 8. `$ cd build`
-9. `$ ./Executable`. This will be generated in the main directory of the build directory.
+9. `$ ./Executable`
 
 NOTE:
 
